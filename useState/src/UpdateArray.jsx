@@ -6,7 +6,7 @@ export default function UpdateArray() {
     function handleAddFood(){
         const newFood = document.getElementById("foodInput").value
         document.getElementById("foodInput").value = "";
-        setFoods(foods => [...foods,newFood]);
+        setFoods(foods => [...foods ,newFood]);
     }
     function handleRemoveFood(index){
         setFoods(foods.filter((_, i)=> i !== index))

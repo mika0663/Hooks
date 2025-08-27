@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import MyComponent from './MyComponent'
-import Counter from './Counter'
+// import MyComponent from './MyComponent'
+// import Counter from './Counter'
+import Updater from "./updater"
 const App = () => {
   return (
-   <MyComponent />
+   <Updater />
   )
 }
 export default App

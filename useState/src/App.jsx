@@ -3,10 +3,12 @@ import React, { Component } from 'react'
 // import Counter from './Counter'
 // import Updater from "./updater"
 // import UpdateObject from './updateObject'
-import UpdateArray from './UpdateArray'
+//import UpdateArray from './UpdateArray'
+import Reference from './Reference'
+
 const App = () => {
   return (
-   <UpdateArray />
+   <Reference />
   )
 }
 export default App
